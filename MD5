@@ -1,12 +1,8 @@
-971eb182c2cfbc99610df2d1f9be7f64 *DESCRIPTION
+04b5c2c8d0d0c155c053c6890386efb4 *DESCRIPTION
 a6df1af5b49c222ed74caf3714dfab66 *LICENSE
 f9d04ae053ab59677a9715ea7ddf3f8c *NAMESPACE
-264da134242190623af39676efbdab73 *R/earth.R
-4de6bbfdb8cbc2a2a4d104e62d5bded7 *build/vignette.rds
-824bbdd42db5d2d34ce629878ee46181 *inst/doc/earthtones.R
-ce5ee13f56eedd7cd36ed4750c1ac92e *inst/doc/earthtones.html
-9bc262a671bfaafba19413234ec28e0e *inst/doc/earthtones.rmd
-c06819db7b4dc4b370ce6d101542847b *man/get_earthtones.Rd
+78ba5f021188f8982cea8f8b64a2c43c *NEWS.md
+72f97ba5aa9c0235c5493472144d64c1 *R/earth.R
+83f21a985836e8e1504b5eb4735584d3 *man/get_earthtones.Rd
 1b74df5f566c935e46d446b39469978c *tests/testthat.R
-19545a488300677e1c56d9ace74034f7 *tests/testthat/test-earth.R
-9bc262a671bfaafba19413234ec28e0e *vignettes/earthtones.rmd
+b5690084956756f62f80e8f274e25985 *tests/testthat/test-earth.R

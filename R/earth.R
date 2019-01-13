@@ -1,8 +1,8 @@
 
-##' Earthtones downloads a satellite image from google earth, translates the image into a perceptually uniform color space, runs one of a few different clustering algorhitms on the colors in the image searching for a user supplied number of colors, and returns the resulting color palette.  
+##' Earthtones downloads a satellite image from google earth, translates the image into a perceptually uniform color space, runs one of a few different clustering algorithms on the colors in the image searching for a user supplied number of colors, and returns the resulting color palette.  
 ##'
 ##'
-##' @title Find the color pallette of a particular place on earth
+##' @title Find the color palette of a particular place on earth
 ##'
 ##' @param latitude center of the returned satellite image
 ##'
@@ -16,13 +16,13 @@
 ##' 
 ##' @param sampleRate subsampling factor - bigger number = more subsampling and less computation
 ##' 
-##' @param include.map logical flag that determines whether to return the satelitte image with the data object; for exploring the world leave this as TRUE; if/when you settle on a color scheme and are using this within a visualization, change to FALSE and the function will return a normal R-style color palette.  
+##' @param include.map logical flag that determines whether to return the satellite image with the data object; for exploring the world leave this as TRUE; if/when you settle on a color scheme and are using this within a visualization, change to FALSE and the function will return a normal R-style color palette.  
 ##' 
 ##' @param ... additional arguments passed to \code{\link{get_map}}
 ##'
 ##' @details Different parts of the world have different color diversity.  Zoom is also especially important.  To visualize the results, simply print the resulting object.  
 ##' 
-##' @seealso \code{\link{get_map}}, \code{\link{kmeans}}, \code{\link{pam}} 
+##' @seealso \code{\link{get_map}}, \code{\link{kmeans}} 
 ##' @import grDevices stats graphics
 ##' @export
 ##' @examples
