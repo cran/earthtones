@@ -1,8 +1,11 @@
-04b5c2c8d0d0c155c053c6890386efb4 *DESCRIPTION
+8f3618d67cee0fcafa5cceb2f3e89620 *DESCRIPTION
 a6df1af5b49c222ed74caf3714dfab66 *LICENSE
-f9d04ae053ab59677a9715ea7ddf3f8c *NAMESPACE
-78ba5f021188f8982cea8f8b64a2c43c *NEWS.md
-72f97ba5aa9c0235c5493472144d64c1 *R/earth.R
-83f21a985836e8e1504b5eb4735584d3 *man/get_earthtones.Rd
+62b340110f39d3bd34a736aa7333a3b0 *NAMESPACE
+b26202679981176ee0b255e4dd7039f0 *NEWS.md
+86706eb11879416340dd1a6baf486b40 *R/earth.R
+a97933af34ad04db2fbd73dd7efa89ff *README.md
+06fa906a485ecd0993d69c1689c40386 *man/get_earthtones.Rd
+904256e19a4dfc68abef74143027db8d *man/print.palette.Rd
 1b74df5f566c935e46d446b39469978c *tests/testthat.R
-b5690084956756f62f80e8f274e25985 *tests/testthat/test-earth.R
+f40740920acaca9167ffee4ac1121047 *tests/testthat/Rplots.pdf
+19545a488300677e1c56d9ace74034f7 *tests/testthat/test-earth.R

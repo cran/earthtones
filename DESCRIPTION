@@ -1,8 +1,18 @@
 Package: earthtones
 Title: Derive a Color Palette from a Particular Location on Earth
-Version: 0.1.1
-Date: 2019-01-13
-Description: Downloads a satellite image via Google Maps/Earth (these are
+Version: 0.2.0
+Authors@R: c(person(given = "Will",
+                      family = "Cornwell",
+                      role = c("aut", "cre"),
+                      email = "wcornwell@gmail.com",
+                      comment = c(ORCID = "0000-0003-4080-4073")),
+               person(given = "Mitch",
+                      family = "Lyons",
+                      role = "aut"),
+               person(given = "Nick",
+                      family = "Murray",
+                      role = "aut"))
+Description: Downloads a satellite image via ESRI and maptiles (these are
     originally from a variety of aerial photography sources), 
     translates the image into a perceptually uniform color space,
     runs one of a few different clustering algorithms on the colors in the image 
@@ -10,13 +20,15 @@ Description: Downloads a satellite image via Google Maps/Earth (these are
     and returns the resulting color palette.  
 Depends: R (>= 3.1.0)
 License: MIT + file LICENSE
-LazyData: true
-Author: Will Cornwell, Mitch Lyons, Nick Murray
 Maintainer: Will Cornwell <wcornwell@gmail.com>
-Imports: ggmap (>= 2.6.1)
+Encoding: UTF-8
+Imports: maptiles, terra, sf, grDevices
 Suggests: testthat, cluster, knitr, rmarkdown, ggplot2
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2019-01-13 09:57:36 UTC; wcornwell
+Packaged: 2025-03-31 05:04:28 UTC; z3484779
+Author: Will Cornwell [aut, cre] (<https://orcid.org/0000-0003-4080-4073>),
+  Mitch Lyons [aut],
+  Nick Murray [aut]
 Repository: CRAN
-Date/Publication: 2019-01-13 10:10:03 UTC
+Date/Publication: 2025-03-31 07:20:04 UTC
